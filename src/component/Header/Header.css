@@ -1,0 +1,36 @@
+.ribbon {
+  margin-left: 10px;
+  /* background-color: salmon; */
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 100%;
+  /* background-color: salmon; */
+}
+.logo img {
+  height: 120px;
+  /* background-color: blue; */
+}
+
+.logo span {
+  margin: 10px 63px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  /* background-color: blueviolet; */
+}
+@media only screen and (max-width: 576px) {
+  .logo img {
+    height: 80px;
+    max-width: 120px;
+  }
+
+  .logo span {
+    margin-left: 37px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+  }
+}

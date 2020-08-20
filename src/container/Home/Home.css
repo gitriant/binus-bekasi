@@ -1,0 +1,61 @@
+body {
+  background: url("../../img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  box-shadow: 0px 1px 21px 7px rgba(0, 0, 0, 0.45);
+  border: 1px solid #999;
+  margin: 11px auto;
+  background-color: white;
+}
+
+.content {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 15px;
+}
+.carousel {
+  border-right: 1px solid #999;
+}
+/* .ribbon {
+  margin-left: 10px;
+  background-color: salmon;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 100%;
+  background-color: salmon;
+}
+.logo img {
+  height: 120px;
+  background-color: blue;
+}
+
+.logo span {
+  margin: 10px 63px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  background-color: blueviolet;
+} */
+.footer {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    border-right: none;
+  }
+
+  .menu {
+    margin-top: 20px;
+    border-radius: 200px;
+  }
+  .menu img {
+    border-radius: 5px 5px 0 0;
+  }
+}
